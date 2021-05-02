@@ -25,7 +25,7 @@
         </nav>
         <div>
         <img src="img/cart.png" alt="Shopping cart" width="18" height="17">
-        <p>Cart</p>
+        <p>CART</p>
         <p>0</p>
         </div>
       </header>
@@ -33,191 +33,228 @@
       <main role="main" id="main-content" tabindex="-1">
         <nav>
           <ul>
-            <li><a href="#">Top sales</a></li>
-            <li><a href="#">Brand focus</a></li>
-            <li><a href="#">Hi-tech</a></li>
-            <li><a href="#">Best sellers</a></li>
-            <li><a href="#">Projects</a></li>
+            <li><a href="#">TOP SALES</a></li>
+            <li><a href="#">BRAND FOCUS</a></li>
+            <li><a href="#">HI-TECH</a></li>
+            <li><a href="#">BEST SELLERS</a></li>
+            <li><a href="#">PROJECTS</a></li>
           </ul>
         </nav>
         <form role="form">
-          <!-- search form with background image -->
+          <label for="search" hidden>Search</label> 
+          <input type="text" id="search" placeholder="I'm looking for...">
         </form>
         <section>
           <h2>iPhone 6 32Gb Black</h2>
           <p>At first, for some time, I was not able to answer him one word; but as he had taken me in his arms I held fast by him, or I should have fallen to the ground.</p>
-          <button>Buy now</button>
+          <button>BUY NOW</button>
           <!-- background color and picture -->
         </section>
         <form role="form">
-          <!-- dropdown menu -->
-          <!-- search bar -->
-          <!-- range -->
-          <!-- dropdown menu -->
+          <label for="sort">SORT BY:</label>
+          <select id="sort" name="sort by">
+            <option value="best match" selected>BEST MATCH</option>
+            <option value="highest rating">HIGHEST RATING</option>
+            <option value="lowest rating">LOWEST RATING</option>
+            <option value="highest price">HIGHEST PRICE</option>
+            <option value="Lowest price">LOWEST PRICE</option>
+          </select>
+          <label for="keyword">KEYWORDS</label>
+          <input list="keywords" name="keyword" id="keyword">
+          <datalist id="keywords">
+            <option value="phones">phones</option>
+            <option value="speakers">speakers</option>
+            <option value="wearables">wearables</option>
+            <option value="headphones">headphones</option>
+            <option value="security">security</option>
+            <option value="routers">routers</option>
+            <option value="TVs">TVs</option>
+            <option value="clothes">clothes</option>
+            <option value="sneakers">sneakers</option>
+            <option value="jackets">jackets</option>
+            <option value="hats">hats</option>
+          </datalist>
+          <label for="price-min">PRICE</label>
+          <input type="text" id="price-min" placeholder="10">
+          <P>&#45;</P>
+          <label for="price-max" hidden>.</label>
+          <input type="text" id="price-max" placeholder="1000">
+          <label for="shipping">SHIP TO:</label>
+          <select id="shipping" name="shipping">
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="Mexico">Mexico</option>
+            <option value="UK">UK</option>
+            <option value="EU">EU</option>
+          </select>
         </form>
         <section>
           <div>
-            <img>
-            <h4></h4>
-            <p></p>
-            <p></p>
+            <img src="img/product-apple-tc.jpg" width="198" height="198" alt="Apple TV with a remote">
+            <p class="image-heading">Apple TV 32GB</p>
+            <p>BLACK</p>
+            <p>$49.99</p>
           </div>
           <div>
-            <img>
-            <h4></h4>
-            <p></p>
-            <p></p>
+            <img src="img/product-watch.jpg" width="141" height="175" alt="Red smart watch">
+            <p class="image-heading">Pebble Time</p>
+            <p>RED</p>
+            <p>$29.99</p>
           </div>
           <div>
-            <img>
-            <h4></h4>
-            <p></p>
-            <p></p>
+            <img src="img/product-usb-hub.jpg" width="256" height="209" alt="White USB hub">
+            <p class="image-heading">Zendure 4-Port USB</p>
+            <p>WHITE</p>
+            <p>$49.99</p>
           </div>
           <div>
-            <img>
-            <h4></h4>
-            <p></p>
-            <p></p>
+            <img src="img/product-scale.jpg" width="207" height="130" alt="Black smart scale">
+            <p class="image-heading">Withings Smart Body Analyzer ws-50</p>
+            <p>BLACK</p>
+            <p>$39.99</p>
           </div>
           <div>
-            <img>
-            <h4></h4>
-            <p></p>
-            <p></p>
+            <img src="img/product-olio.jpg" width="196" height="196" alt="Silver olio">
+            <p class="image-heading">Ollo Clip New</p>
+            <p>SILVER</p>
+            <p>$19.99</p>
           </div>
           <div>
-            <img>
-            <h4></h4>
-            <p></p>
-            <p></p>
+            <img src="img/product-fitbit.jpg" width="144" height="196" alt="Black fitbit">
+            <p class="image-heading">Fitbit Charge HR</p>
+            <p>BLACK</p>
+            <p>$19.9</p>
           </div>
           <div>
-            <img>
-            <h4></h4>
-            <p></p>
-            <button></button>
-            <button></button>
+            <img src="img/product-charger.jpg" width="570" height="305" alt="Black JBL speaker">
+            <p class="image-heading">JBL Charge 2+</p>
+            <p>BLACK</p>
+            <button>16 GB</button>
+            <button>BUY NOW</button>
           </div>
           <div>
-            <img>
-            <h4></h4>
-            <p></p>
-            <p></p>
+            <img src="img/product--apple-watch.jpg" width="194" height="194" alt="White Apple Smart Watch">
+            <p class="image-heading">Apple Watch Sport</p>
+            <p>WHITE</p>
+            <p>$49.99</p>
           </div>
           <div>
-            <img>
-            <h4></h4>
-            <p></p>
-            <p></p>
+            <img src="img/product-headphones.jpg" width="137" height="206" alt="White Bose Headphones">
+            <p class="image-heading">Bose SoundLink On-Ear Headphones</p>
+            <p>WHITE</p>
+            <p>$119.99</p>
           </div>
           <div>
-            <img>
-            <h4></h4>
-            <p></p>
-            <p></p>
+            <img src="img/product-hifi.jpg" width="143" height="189" alt="Wireless HiFi System">
+            <p class="image-heading">Sonos Play-1 Wireless HiFi System</p>
+            <p>BLACK</p>
+            <p>$99.99</p>
           </div>
           <div>
-            <img>
-            <h4></h4>
-            <p></p>
-            <p></p>
-          </div>
-        </section>
-        <section>
-          <div>
-            <p></p>
-          </div>
-          <div>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p active></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-          </div>
-          <div>
-            <p></p>
+            <img src="img/product-nest.jpg" width="172" height="178" alt="Nest Home security">
+            <p class="image-heading">Nest, 3rd Gen</p>
+            <p>BLACK</p>
+            <p>$99.99</p>
           </div>
         </section>
         <section>
-          <h4></h4>
           <div>
-            <img>
-            <h5></h5>
-            <p></p>
-            <p></p>
+            <p>&#60;</p>
           </div>
           <div>
-            <img>
-            <h5></h5>
-            <p></p>
-            <p></p>
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p class="active">4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
           </div>
           <div>
-            <img>
-            <h5></h5>
-            <p></p>
-            <p></p>
+            <p>&#62;</p>
+          </div>
+        </section>
+        <section>
+          <h3>BEST SELLERS</h3>
+          <div>
+            <img src="img/best-seller-beanie.jpg" width="149" height="146" alt="Green beanie">
+            <p class="image-heading">Beanie</p>
+            <p>GREEN</p>
+            <p class="strike">$39.99</p>
+            <p>$29.99</p>
           </div>
           <div>
-            <img>
-            <h5></h5>
-            <p></p>
-            <p></p>
+            <img src="img/best-seller-shirt.jpg" width="155" height="156" alt="T-Shirt with a print">
+            <p class="image-heading">T-Shirt With a Print</p>
+            <p>DARK BLUE</p>
+            <p class="strike">$29.99</p>
+            <p>$19.99</p>
+          </div>
+          <div>
+            <img src="img/best-seller-jacket.jpg" width="139" height="171" alt="Hooded Jacket">
+            <p class="image-heading">Pile-Lined Hooded Jacket</p>
+            <p>DARK BLUE</p>
+            <p class="strike">$49.99</p>
+            <p>$39.99</p>
+          </div>
+          <div>
+            <img src="img/best-seller-trainers.jpg" width="161" height="92" alt="Classic Sneakers">
+            <p class="image-heading">Trainers</p>
+            <p>SPACE GREY</p>
+            <p class="strike">$39.99</p>
+            <p>$29.99</p>
           </div>
         </section>
       </main>
       <aside role="complementary">
-        <h3></h3>
-        <p></p>
+        <h2>What Our Customers Have to Say</h2>
+        <p>Couple of Words About This Stories Section</p>
         <div>
           <div>
-            <img>
-            <p></p>
-            <p></p>
+            <img src="img/customer-1.png" width="40" height="40" alt="Photo of a female customer">
+            <p>Celia Fields</p>
+            <p>UX Expert</p>
           </div>
-          <p></p>
+          <p>This I have produced as a scantling of Jack's great eloquence and the force of his reasoning upon such abstruse matters</p>
         </div>
         <div>
           <div>
-            <img>
-            <p></p>
-            <p></p>
+            <img src="img/customer-2.png" width="40" height="40" alt="Photo of a male customer">
+            <p>Alexander Lee</p>
+            <p>Founder</p>
           </div>
-          <p></p>
+          <p>Looking cautiously round, to ascertain that they were not overheard, the two hags cowered nearer to the fire, and chuckled heartily</p>
         </div>
         <div>
           <div>
-            <img>
-            <p></p>
-            <p></p>
+            <img src="img/customer-3.png" width="40" height="40" alt="Photo of a female customer">
+            <p>Lenora Sandoval</p>
+            <p>Product Manager</p>
           </div>
-          <p></p>
+          <p>This sounded a very good reason, and Alice was quite pleased to know it. 'I never thought of that before!' she said.</p>
         </div>
       </aside>
       <footer role="contentinfo">
         <section>
-          <img>
+          <img src="img/logo-white.png" width="92" height="25" alt="White Portland Logo">
           <nav role="navigation">
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Shop</a></li>
-              <li><a href="#">Team</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Contacts</a></li>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">SHOP</a></li>
+              <li><a href="#">TEAM</a></li>
+              <li><a href="#">ABOUT US</a></li>
+              <li><a href="#">CONTACTS</a></li>
             </ul>
           </nav>
-          <img>
-          <img>
-          <img>
+          <img src="img/twitter.png" width="17" height="14" alt="Twitter Logo">
+          <img src="img/facebook.png" width="9" height="18" alt="Facebook Logo">
+          <img src="img/google-plus.png" width="24" height="15" alt="Google Plus Logo">
         </section>
         <section>
           <ul>
-            <li><a href="#">Privacy policy</a></li>
-            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">PRIVACY POLICY</a></li>
+            <li><a href="#">TERMS AND CONDITIONS</a></li>
           </ul>
         </section>
       </footer>
